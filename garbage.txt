@@ -1,0 +1,172 @@
+<div class="card-body">
+      
+                  
+                  <!---->
+                  <div class="row align-items-center pt-4 pb-3 ps-4">
+                    <div class="col-md-2 ps-3">
+      
+                      <h6 class="mb-0">Date of Joining</h6>
+      
+                    </div>
+                    <div class="col-md-3 pe-3  ">
+      
+                      <input type="date" name="dob" class="form-control form-control-lg" required/>
+                      
+      
+                    </div>
+                    <div class="col-md-3 ps-5">
+      
+                      <h6 class="mb-0">Last publication date</h6>
+      
+                    </div>
+                    <div class="col-md-3 pe-3 ">
+      
+                      <input type="date" name="dob" class="form-control form-control-lg" required/>
+                      
+      
+                    </div>
+                    
+                      
+                  </div>
+                  <hr class="mx-n3">
+                  <!---->
+                  <div class="row align-items-center pt-4 pb-3">
+                    <div class="col-md-3 ps-5">
+      
+                      <h6> Last publication topic</h6>
+                      
+      
+                    </div>
+                    <div class="col-md-9 pe-5">
+      
+                      <input type="text" id="pubtopic" name="pubtopic"  class="form-control form-control-lg" required/><br>
+                      <small id="nameMassage"></small>
+      
+                    </div>
+                  </div>
+                
+                  <hr class="mx-n3">
+                  <!---->
+                  <div class="row align-items-center py-3">
+                    <div class="col-md-3 ps-5">
+                        
+                      <h6 class="mb-0">Upload Publication paper</h6>
+      
+                    </div>
+                    <div class="col-md-9 pe-5">
+      
+                      
+                      <small id="ffileMassage"></small>
+                      <div class="small text-muted mt-2">Upload your last publication paper or any other relevant file.</div>
+      
+                    </div>
+                  </div>
+      
+                  <hr class="mx-n3">
+                  <!---->
+                  <div class="row align-items-center py-3">
+                    <div class="col-md-6 ps-5">
+      
+                      <h6 class="mb-0">Number of students performing project under you</h6>
+      
+                    </div>
+                    <div class="col-md-2 pe-5">
+      
+                      <input type="number" id="student" name="student" class="form-control form-control-lg"  required/>
+                      <br>
+    
+                    </div>
+                    <div class="col-md-4 pe-5">
+                      <label for="">Faculty</label>
+                      <select name="type" id="" required>
+                        <option value="">Type</option>
+                        <option value="Faculty">Regular Faculty</option>
+                        <option value="Guest">Guest Faculty</option>
+                      </select>
+                      
+                    </div>
+                  </div>
+      
+                  
+                  
+                                       
+
+                      
+                      
+                  </div>
+      
+                  <hr class="mx-n3">
+      
+                  <div class="row align-items-center py-3">
+                    <div class="col-md-3 ps-5">
+      
+                      <h6 class="mb-0">Full address</h6>
+      
+                    </div>
+                    <div class="col-md-9 pe-5">
+      
+                      <textarea id="address" name="address" class="form-control" rows="3" placeholder="Write your address here"></textarea>
+                      <br>
+                      <small id="addressMassage"></small>
+                    </div>
+                  </div>
+      
+                  <hr class="mx-n3">
+      
+            <div class="row align-items-center py-3">
+                    <div class="col-md-3 ps-5">
+                        
+                      <h6 class="mb-0">Upload CV</h6>
+      
+                    </div>
+                    <div class="col-md-9 pe-5">
+      
+                      <input class="form-control form-control-lg" id="ffile" name="cv" type="file"  accept=".pdf,.docs"/>
+                      <small id="ffileMassage"></small>
+                      <div class="small text-muted mt-2">Upload your CV/Resume or any other relevant file.</div>
+      
+                    </div>
+                  </div>
+      
+                  <hr class="mx-n3">
+                  <!---->
+                  <div class="row align-items-center py-3">
+                    <div class="col-md-3 ps-5">
+                        
+                      <h6 class="mb-0">Upload signature</h6>
+      
+                    </div>
+                    <div class="col-md-9 pe-5">
+      
+                      <input class="form-control form-control-lg" id="signature" name="signature" type="file"  accept="image/png, image/gif, image/jpeg"/>
+                      
+                      <div class="small text-muted mt-2">Upload your Signature.</div>
+      
+                    </div>
+                  </div>
+      
+                  <hr class="mx-n3">
+                  <!---->
+                  <div class="row align-items-center py-3">
+                    <div class="col-md-3 ps-5">
+                        
+                      <h6 class="mb-0">Upload Image of you</h6>
+      
+                    </div>
+                    <div class="col-md-9 pe-5">
+      
+                      <input class="form-control form-control-lg" id="image" name="image" type="file" accept="image/png, image/gif, image/jpeg" />
+                      
+                      <div class="small text-muted mt-2">Upload your Profile picture.</div>
+      
+                    </div>
+                  </div>
+      
+                  <hr class="mx-n3">
+      
+                  <div class="d-grid gap-2  justify-content-md-end ">
+                    <button type="submit" class="btn btn-primary btn-lg ">Submit</button>
+                  </div>
+      
+                </div>
+                
